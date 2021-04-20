@@ -8,7 +8,7 @@ import React from 'react'
           image.map((item,index)=>
           <img alt="nature" 
           key={index} 
-          src={require(`/high/${index+1}.jpg`)}
+          src={`/high/${index+1}.jpg?webp`}
            height={500} width={500}
            />
           )
